@@ -63,4 +63,6 @@ Provides a simple interface where users can enter patient health details and rec
 <img width="330" height="137" alt="Screenshot 2026-07-13 at 8 43 40 PM" src="https://github.com/user-attachments/assets/b34bcd7d-b28b-4a11-ac21-bdce46518cd8" />
 
 
+
+
 <img width="303" height="218" alt="image" src="https://github.com/user-attachments/assets/f512e9d6-258d-4ba5-9f7c-079cf0c81654" />
