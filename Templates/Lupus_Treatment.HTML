@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lupus Treatment</title>
+    <link href="static/bootstrap.min.css" rel="stylesheet">
+    <script src="static/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <a href="{{url_for('Dashboard')}}" class="btn btn-success m-3">
+                Home
+            </a>
+        </div>
+        <div class="row p-3 m-1">
+            <div class="col text-center">
+                <h1 class="text-danger">Lupus Disease Predicted</h1>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <h2>Treatment for Lupus Disease</h2>
+            </div>
+        <div class="row">
+            <div class="col-4">
+                <h1 class="text-center"> Medications</h1> 
+                <p class="text-justify">These synthetic hormones mimic cortisone and are used to quickly reduce inflammation and pain, but can have significant side effects, so they're often used in conjunction with other medications. 
+                    Immunosuppressants:
+                    These medications suppress the immune system, helping to reduce the severity of lupus symptoms and prevent flares. Examples include cyclophosphamide (Cytoxan) and mycophenolate (Cellcept). 
+                </p>
+            </div>
+            <div class="col-2">
+                <img src="static/Statin.jpg" alt="Lifestyle Changes" class="img-fluid">
+            </div>
+            <div class="col-4">
+                <h1>Lifestyle Changes</h1>
+                <p class="text-justify">
+                    Healthy Diet:Eating a balanced diet rich in fruits, vegetables, and whole grains can help maintain a healthy weight and reduce inflammation. 
+                    Regular Exercise: Engaging in physical activity can improve mood, energy levels, and sleep quality, while also helping to manage pain and fatigue. 
+                </p>
+            </div>
+            <div class="col-2">
+                <img src="static/Diet.jpg" alt="Lifestyle Changes" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

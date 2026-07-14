@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link href="static/bootstrap.min.css" rel="stylesheet">
+    <script src="static/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <form Method="post"> 
+        <a href="{{url_for('Dashboard')}}" class="btn btn-success m-3"> 
+            Home
+        </a>
+    <div class="container-fluid">
+        <div class="row p-3 m-1">
+            <div class="col text-center"><h1>Heart Disease Prediction</h1></div>
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <img src="static/Heart_Disease.png" alt="Heart Disease" class="img-fluid"> 
+            </div>
+            <div class="col">
+                <div class="row m-1">
+                    <h2>Fill the form below to check if you have heart disease or not!</h2>
+                </div>
+                <div class="row m-1">
+                    <input type="number" class="form-control" name="age" placeholder="Enter your age: ">
+                </div>
+                <div class="row m-1">
+                    <input type="number" class="form-control" name="sex" placeholder="Enter your sex: ">
+                </div>
+                <div class="row m-1">
+                    <input type="number" class="form-control" name="cp" placeholder="Enter Your Chest Pain Type: ">
+                </div>
+                <div class="row m-1">
+                    <input type="number" class="form-control" name="trestbps" placeholder="Enter your Trest Blood Pressure: ">
+                </div>
+                <div class="row m-1">
+                    <input type="number" class="form-control" name="chol" placeholder="Enter your cholestrol: ">
+                </div>
+                <div class="row m-1">
+                    <input type="number" class="form-control" name="fbs" placeholder="Enter your fbs: ">
+                </div>
+                <div class="row m-1">
+                    <input type="number" class="form-control" name="restecg" placeholder="Enter your restecg: ">
+                </div>
+                <div class="row m-1">
+                    <input type="number" class="form-control" name="thalach" placeholder="Enter your thalach: ">
+                </div>
+                <div class="row m-1">
+                    <input type="number" class="form-control" name="exang" placeholder="Enter your exang: ">
+                </div>
+                <div class="row m-1">
+                    <input type="number" class="form-control" name="oldpeak" placeholder="Enter your oldpeak: ">
+                </div>
+                <div class="row m-1">
+                    <input type="number" class="form-control" name="slope" placeholder="Enter your slope: ">
+                </div>
+                <div class="row m-1">
+                    <input type="number" class="form-control" name="ca" placeholder="Enter your ca: ">
+                </div>
+                <div class="row m-1">
+                    <input type="number" class="form-control" name="thal" placeholder="Enter your thal: ">
+                </div>
+                <div class="row m-1">
+                    <input type="text" class="form-control" name="target" value="{{output}}" readonly>
+            </div>
+            <div class="row m-1 text-center">
+                <input type="submit" class="btn btn-primary" name="submit" value="Predict">
+            </div>
+        </div>
+    </div>
+</form>
+</body>
+</html>

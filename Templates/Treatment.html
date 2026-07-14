@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treatment</title>
+    <link href="static/bootstrap.min.css" rel="stylesheet">
+    <script src="static/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <a href="{{url_for('Dashboard')}}" class="btn btn-success m-3">
+                Home
+            </a>
+        </div>
+        <div class="row p-3 m-1">
+            <div class="col text-center">
+                <h1 class="text-danger">Heart Disease Predicted</h1>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <h2>Treatment for Heart Disease</h2>
+            </div>
+        <div class="row">
+            <div class="col-4">
+                <h1 class="text-center">Lifestyle Changes</h1> 
+                <p class="text-justify">Diet: Following a heart-healthy diet low in saturated and trans fats, cholesterol, and sodium. 
+                    Exercise: Regular physical activity can strengthen the heart and improve overall cardiovascular health. 
+                    Stress Management: Techniques like yoga, meditation, or deep breathing can help reduce stress, which can contribute to heart disease. 
+                    Quitting Smoking: Smoking significantly increases the risk of heart disease and should be avoided or stopped. 
+                </p>
+            </div>
+            <div class="col-2">
+                <img src="static/Diet.jpg" alt="Lifestyle Changes" class="img-fluid">
+            </div>
+            <div class="col-4">
+                <h1>Medication</h1>
+                <p class="text-justify">
+                    Statins: Help lower cholesterol levels. 
+                    Beta-blockers: Reduce blood pressure and heart rate. 
+                    ACE inhibitors: Lower blood pressure and help prevent heart failure. 
+                    Diuretics: Help reduce fluid buildup in the body, which can be a problem in heart failure. 
+                    Antiplatelet drugs: Prevent blood clots. 
+                    Anticoagulants: Thins the blood to prevent clots. 
+                </p>
+            </div>
+            <div class="col-2">
+                <img src="static/Statin.jpg" alt="Lifestyle Changes" class="img-fluid">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <h1>Procedures and Surgeries</h1>
+                <p class="text-justify">Angioplasty and Stenting: A procedure to widen blocked arteries in the heart. 
+                    Coronary Artery Bypass Graft (CABG): A surgery to bypass blocked arteries. 
+                    Heart Valve Surgery: Repair or replacement of damaged heart valves. 
+                    Pacemaker: An implanted device to regulate the heart's rhythm. 
+                    Implantable Cardioverter-Defibrillator (ICD): A device that can deliver electrical shocks to restore a normal heart rhythm. 
+                    Heart Transplant: Replacing a diseased heart with a healthy donor heart. 
+                    </p>
+            </div>
+            <div class="col-2">
+                <img src="static/Surgery.jpg" alt="Lifestyle Changes" class="img-fluid">
+            </div>
+            <div class="col-4">
+                <h1>Other Treatments</h1>
+            <p class="text-justify">Cardiac Rehabilitation: A supervised exercise program to improve heart health after a heart attack or other heart procedures. 
+                Left Ventricular Assist Device (LVAD): A mechanical pump that helps the heart pump blood. 
+                Ablation: A procedure to destroy abnormal heart tissue that is causing irregular heart rhythms. </p>
+            </div>
+            <div class="col-2">
+                <img src="static/Cardiac Rehabilitation.webp" alt="Lifestyle Changes" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

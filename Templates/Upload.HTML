@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="static/bootstrap.min.css" rel="stylesheet">
+    <script src="static/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid text-center p-3">
+        <h1>Upload File</h1>
+        <form method="post" enctype="multipart/form-data">
+            <input class="form-control m-3" type="file" name="file" accept=".csv" required>
+            <input class="btn btn-success" formaction="{{url_for('Upload')}}" type="submit" value="Upload">
+        </form>
+    </div>
+    
+</body>
+</html>
