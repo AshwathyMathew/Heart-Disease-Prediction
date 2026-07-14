@@ -68,3 +68,35 @@ Provides a simple interface where users can enter patient health details and rec
 
 <img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/b7f369c8-93b3-4e33-8080-c116205f30c9" />
 
+
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/2da8e98d-cf9e-4569-9ee3-e0563ba27bea" />
+
+
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/c7a1c3b0-822d-4444-b978-1120097fef06" />
+
+
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/16d56c95-9494-413c-b7eb-205b00c25004" />
+
+
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/c1f48002-c788-4313-b46d-8d46d4e88cf8" />
+
+
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/64fad913-8030-446d-8a52-f90fe06bf3b2" />
+
+
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/8ae6f024-cdab-4389-87a5-a2d1b4d87b3e" />
+
+
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/8ae59f2f-9d87-4b1f-a28c-502bde8652a8" />
+
+
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/9a1352a8-3b8f-41f3-ab2b-99c65446b9cf" />
+
+
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/179d7090-9c5a-4cea-9c9a-0807cb898679" />
+
+
+<img width="2940" height="1912" alt="image" src="https://github.com/user-attachments/assets/a7e42d09-1391-44b5-9851-aa863a39a051" />
+
+
+
